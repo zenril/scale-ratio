@@ -1,6 +1,6 @@
 # scale-ratio
-CSS to maintain aspect ratios across multiple width devices
-You can maintain elements height based on there widths.
+CSS to maintain elements aspect ratios across multiple device widths.
+The elements height will be set based on its width.
 
     <div class='s-xs-50 s-sm-70 scale'>
         <div>
