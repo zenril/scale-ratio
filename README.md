@@ -32,5 +32,4 @@ The usable percentages range from 5 - 200 in increments of 5
 |.s-xs-155 .s-sm-155 .s-md-155 .s-lg-155 | height will be 155% of width |
 |.s-xs-200 .s-sm-200 .s-md-200 .s-lg-200 | height will be 200% of width |
 
-
 //todo add common 
