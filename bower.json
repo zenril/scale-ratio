@@ -1,0 +1,17 @@
+{
+  "name": "scale-ratio",
+  "description": "Keep elements at a ratio for a given breakpoint",
+  "main": "index.js",
+  "authors": [
+    "Aaron Meredith <aaron@aaron-m.co.nz>"
+  ],
+  "license": "MIT",
+  "homepage": "http://aaron-m.co.nz",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

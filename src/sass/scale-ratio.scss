@@ -1,0 +1,40 @@
+/*!
+scaler.v1.css v^1.0 | MIT License | https://github.com/zenril/scaler
+Copyright (c) Aaron Meredith
+*/
+
+@import "_variables";
+
+div.scale {width: 100%;position: relative;}
+div.scale > div { position: absolute; top: 0; bottom: 0; left: 0; right: 0; text-align: center;}
+
+$i: 0;
+@while $i <= $max {
+    $selectors: "";
+
+    @each $group in $list {
+        $class: nth($group,2);
+        $selectors: $selectors + $class + $i + ",";
+    }
+
+    #{$selectors}{
+        padding-bottom: #{$i+"%"};
+    }
+    $i: $i + $increments;
+}
+
+@each $group in $list {
+    $i: $min;
+    $class: nth($group,2);
+    $size: nth($group,1);
+    @media ( min-width: #{$size} ){
+        @while $i <= $max {
+
+            #{$class}#{$i} {
+                padding-bottom:#{$i+"%"};
+            }
+
+            $i: $i + $increments;
+        }
+    }
+}

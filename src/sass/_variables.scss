@@ -1,0 +1,10 @@
+$max: 200;
+$increments:5;
+$min: $increments;
+
+$list: (
+    (0, ".s-xs-"),
+    (768, ".s-sm-"),
+    (992, ".s-md-"),
+    (1200, ".s-lg-")
+);
