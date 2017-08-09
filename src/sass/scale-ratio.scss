@@ -27,7 +27,7 @@ $i: 0;
     $i: $min;
     $class: nth($group,2);
     $size: nth($group,1);
-    @media ( min-width: #{$size} ){
+    @media ( min-width: #{$size}px ){
         @while $i <= $max {
 
             #{$class}#{$i} {

@@ -137,7 +137,7 @@ div.scale > div {
 .s-xs-200, .s-sm-200, .s-md-200, .s-lg-200 {
   padding-bottom: 200%; }
 
-@media (min-width: 0) {
+@media (min-width: 0px) {
   .s-xs-5 {
     padding-bottom: 5%; }
   .s-xs-10 {
@@ -219,7 +219,7 @@ div.scale > div {
   .s-xs-200 {
     padding-bottom: 200%; } }
 
-@media (min-width: 768) {
+@media (min-width: 768px) {
   .s-sm-5 {
     padding-bottom: 5%; }
   .s-sm-10 {
@@ -301,7 +301,7 @@ div.scale > div {
   .s-sm-200 {
     padding-bottom: 200%; } }
 
-@media (min-width: 992) {
+@media (min-width: 992px) {
   .s-md-5 {
     padding-bottom: 5%; }
   .s-md-10 {
@@ -383,7 +383,7 @@ div.scale > div {
   .s-md-200 {
     padding-bottom: 200%; } }
 
-@media (min-width: 1200) {
+@media (min-width: 1200px) {
   .s-lg-5 {
     padding-bottom: 5%; }
   .s-lg-10 {
